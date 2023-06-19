@@ -1,0 +1,46 @@
+:root {
+  /* Colours */
+  --yellow: hsl(60, 100%, 50%);
+  --light-yellow: hsl(60, 100%, 65%);
+
+  --black: black;
+
+  /* Variables */
+  --site-background-colour: var(--light-yellow);
+  --site-text-colour: var(--black);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--site-background-colour);
+  color: var(--site-text-colour);
+  font-family: 'Comfortaa', cursive;
+  font-size: 2rem;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.twitter-icon {
+  background-image: url("./images/icons/twitter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 2rem;
+}
